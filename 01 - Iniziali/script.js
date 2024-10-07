@@ -5,12 +5,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 function my_func(arr) {
-    const temp = []
+    const initials = []
     for (let i = 0; i < arr.length; i++) {
         const first_letter = arr[i][0];
-        temp.push(first_letter)
+        initials.push(first_letter)
     }
-    return temp
+    return initials
 }
 
 // Invoca la funzione qui e stampa il risultato in console
