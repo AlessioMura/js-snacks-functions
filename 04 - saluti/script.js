@@ -4,10 +4,12 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+function my_func(hello) {
+    return `ciao ${hello}`;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
-
+let greetings = my_func(name);
+console.log(greetings);
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
